@@ -113,7 +113,7 @@ PRSET topologypr=constraints (ArchDeino);
 CTYPE UNORDERED: 1-374;
 
 LSET coding=variable rates=gamma;
-PRSET Symdirihyperpr = uniform(1.0,5.0);
+PRSET Symdirihyperpr = uniform(1.0,10.0);
 
 mcmc ngen=10000000  printfreq=2000  nruns=4 samplefreq=2000 nchains=4 savebrlens=yes filename=Theropodsy;
 

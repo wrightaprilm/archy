@@ -1,0 +1,2 @@
+raxmlHPC -f a -# 100 -m MULTIGAMMA -x 1 -p 147 -s $WDIR/raxml.nex -n results -# 100
+

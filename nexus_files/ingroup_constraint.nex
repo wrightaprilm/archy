@@ -224,7 +224,7 @@ prset topologypr = constraints (ingroup);
 prset brlenspr=clock:uniform;
 prset clockvarpr=igr; 
 prset igrvarpr=exp(5.88);
-prset clockratepr = lognorm(-2.3355215932403106, 0.18);
+prset clockratepr = lognorm(-2.3355215932403106, 0.1074618);
 calibrate ingroup=offsetexp(204.4317,206.03515);
 mcmc ngen=100000000  printfreq=1000  nruns=4 samplefreq=1000 nchains=4 savebrlens=yes filename=archy_constrained_njm1;
 
